@@ -179,10 +179,27 @@ http://en.wikipedia.org/wiki/Fast_inverse_square_root
 
 https://bits.stephan-brumme.com/
 
+
 https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/
 
+https://graphics.stanford.edu/~seander/bithacks.html
 
+``````
+>>> bin(0b1111 << 1)
+'0b11110'
+>>> bin(0b1111 << 2)
+'0b111100'
+>>> bin(0b1111 << 3)
+'0b1111000'
+>>> bin(0b1111 << 4)
+'0b11110000'
+``````
 
+* https://wiki.python.org/moin/BitwiseOperators
+* https://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer
+* https://bits.stephan-brumme.com/swap.html
+* https://bits.stephan-brumme.com/absInteger.html
+* https://www.youtube.com/watch?v=Hzuzo9NJrlc&feature=youtu.be
 -------------
 [ ] Trees
 -------------
