@@ -35,6 +35,154 @@
 [Ransom Note](https://www.hackerrank.com/challenges/ctci-ransom-note/problem)
 
 ----
-[ ] Bitwise Operators
+[X] Bitwise Operators
 -------------
-    □
+    2^0, 2^1, 2^2, 2^3, 2^4, 2^5, 2^6, 2^7  = 8 bits = 1 byte
+
+     2^7  2^6 2^5 2^4  2^3 2^2 2^1 2^0
+    | 128| 64 | 32| 16 | 8 | 4 | 2 | 1 |
+
+Set Bit
+------
+``````
+def set_bit(x, position):
+  mask = 1 << position
+  return x | mask
+
+  x = 00000110
+  position = 00000101
+  mask = 00100000
+
+
+
+calculation:
+x 00000110
+mask 00100000
+output = 00100110
+
+``````
+Clear Bit
+------
+``````
+sef clear_bit(x, position):
+  mask = 1 << position
+  return x & ~mask
+
+
+x 00000110
+position 00000010
+mask 00000100
+~mask 11111011
+
+
+      x 00000110
+& ~mask 11111011
+
+         00000010
+
+``````
+
+Flip Bit
+------
+``````
+def flip_bit(x, position):
+  mask = 1 << position
+  return x ^ mask
+
+
+x 01100110
+position 00000010
+mask 00000100
+
+
+x      01100110
+^ mask 00000100
+
+----------------
+      01100010
+
+
+
+
+``````
+
+Left Shift
+-------
+
+Shift the binary digits by n, pad 0's on the right    
+
+
+Each shift is a multiply by 2 (unless there's overflow)
+
+
+
+Right Shift
+--------
+
+Shift the binary digits by n, pad 0's on the left
+
+Each shift is a divide by 2 with round towards negative infinity
+
+
+
+
+Is Bit Set
+------
+
+``````
+
+def is_bit_set(x, position):
+	shifted = x >> position
+	return shifted & 1
+	
+
+X        01100110           00000011        shifted 
+Position 00000101         & 00000001              1
+Shifted   00000011          00000001    
+
+``````
+	
+BIT TRICKS
+--------
+``````
+Even: check the right-most bit
+
+(x & 1) == 0
+
+
+CHECK IF POWER OF TWO
+
+                     1000
+(x & x-1) == 0    &  0111
+                     0000
+``````
+Exercise
+---------
+Write a function to count the number of
+Bits that are different between two numbers
+``````
+def num_diff_bits(a, b): 
+	count = 0 
+	diff = a ^ b
+	while diff != 0:
+		 if diff & 1:
+			 count += 1 
+		diff = diff >> 1 
+	return count
+
+``````
+http://bits.stephan-brumme.com/
+http://h14s.p5r.org/2012/09/0x5f3759df.html
+
+http://en.wikipedia.org/wiki/Fast_inverse_square_root
+
+
+https://bits.stephan-brumme.com/
+
+https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/
+
+
+
+-------------
+[ ] Trees
+-------------
