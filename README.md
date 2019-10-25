@@ -1,24 +1,9 @@
-<!----- Conversion time: 5.699 seconds.
 
 
-Using this Markdown file:
+---
 
-1. Cut and paste this output into your source file.
-2. See the notes and action items below regarding this conversion run.
-3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
+#### Books:
 
-Conversion notes:
-
-* Docs to Markdown version 1.0β17
-* Thu Oct 24 2019 21:52:57 GMT-0700 (PDT)
-* Source doc: https://docs.google.com/open?id=1qkIiSZSpfMd1450KXzCmX12XKnE_7-QqhPe6Wmm5uoI
------>
-
-
-[Source](https://github.com/BMariscal/coding-interview-university)
-
-Books:
 
 
 
@@ -30,23 +15,41 @@ Books:
 *   **CtCI:** Cracking the Coding Interview
 *   **PSP:** Problem Solving with Algorithms and Data Structures Using Python
 
-Practice Problems:
+---
+
+#### Practice Problems:
 
 
 
 *   LeetCode, HackerRank
 
-Courses:
+---
+
+#### Courses and Resources:
 
 
+
+* [Primary resource](https://github.com/BMariscal/coding-interview-university)
 
 *   [Data Structures and Algorithms Specialization](https://www.coursera.org/specializations/data-structures-algorithms)
-*   [The Hardware/Software Interface](https://courses.cs.washington.edu/courses/cse351/19sp/)
-*   [Build a Modern Computer from First Principles: From Nand to Tetris](https://www.coursera.org/learn/build-a-computer?)
-*   [Intro to DBs](https://lagunita.stanford.edu/courses/DB/2014/SelfPaced/about), [Database Systems ](https://15445.courses.cs.cmu.edu/fall2019/)
-*   [ linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+*  [Introduction to Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/)
+    * [Notes](https://courses.csail.mit.edu/6.006/fall11/notes.shtml)
 
-Tutorials:
+* [Design and Analysis of Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/)
+
+* [Advanced Data Structures](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-851-advanced-data-structures-spring-2012/)
+
+*   [The Hardware/Software Interface](https://courses.cs.washington.edu/courses/cse351/19sp/)
+
+*   [Build a Modern Computer from First Principles: From Nand to Tetris](https://www.coursera.org/learn/build-a-computer?)
+
+*   [Intro to DBs](https://lagunita.stanford.edu/courses/DB/2014/SelfPaced/about), [Database Systems ](https://15445.courses.cs.cmu.edu/fall2019/)
+
+*   [ Linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+
+---
+
+#### Tutorials:
 
 
 
@@ -54,6 +57,8 @@ Tutorials:
 *   [ Grokking the System Design Interview](https://www.educative.io/courses/grokking-the-system-design-interview)
 *   [Python Concurrency for Senior Engineering Interviews](https://www.educative.io/courses/python-concurrency-for-senior-engineering-interviews)
 
+******
+#### Syllabus [*Subject to change*]:
 <table>
   <tr>
    <td>
@@ -141,7 +146,8 @@ Tutorials:
    </td>
    <td>Trees
    </td>
-   <td><a href="https://www.hackerrank.com/interview/interview-preparation-kit/trees/challenges">https://www.hackerrank.com/interview/interview-preparation-kit/trees/challenges</a>
+   <td>
+   <a href="https://www.hackerrank.com/interview/interview-preparation-kit/trees/challenges">https://www.hackerrank.com/interview/interview-preparation-kit/trees/challenges</a>
 <p>
 PSP: chpt - Trees
    </td>
@@ -154,6 +160,9 @@ PSP: chpt - Trees
    <td>Binary Search Trees
    </td>
    <td>
+   <a href="https://www.hackerrank.com/interview/interview-preparation-kit/trees/challenges">https://www.hackerrank.com/interview/interview-preparation-kit/trees/challenges</a>
+<p>
+PSP: chpt - Trees
    </td>
    <td>
    </td>
@@ -182,6 +191,7 @@ PSP: chpt - Trees
 
 
 **Week 0.1**
+
 
 
 <table>
@@ -268,7 +278,8 @@ PSP: chpt - Trees
 </table>
 
 
-**Month 1 - November**
+
+**Month 1**
 
 Week 1
 
@@ -355,6 +366,7 @@ Week 1
    </td>
   </tr>
 </table>
+
 
 
 Week 2
@@ -503,7 +515,7 @@ Week 3
    </td>
    <td>Caches
    </td>
-   <td>
+   <td> 146
    </td>
    <td>
    </td>
@@ -600,7 +612,7 @@ Week 4
    </td>
    <td>Skiena, chapter 1 to 6
    </td>
-   <td>146
+   <td>
    </td>
    <td>
    </td>
@@ -618,7 +630,8 @@ Week 4
 </table>
 
 
-**Month 2 - December**
+
+**Month 2**
 
 Week 1
 
@@ -794,6 +807,7 @@ Week 2
 </table>
 
 
+
 Week 3
 
 
@@ -879,6 +893,7 @@ Week 3
    </td>
   </tr>
 </table>
+
 
 
 Week 4
@@ -968,7 +983,8 @@ Week 4
 </table>
 
 
-**Month 3 - January**
+
+**Month 3**
 
 Week 1
 
@@ -1055,6 +1071,7 @@ Week 1
    </td>
   </tr>
 </table>
+
 
 
 Week 2
@@ -1144,6 +1161,8 @@ Week 2
 </table>
 
 
+
+
 Week 3
 
 
@@ -1231,7 +1250,9 @@ Week 3
 </table>
 
 
+
 Week 4
+
 
 
 <table>
@@ -1318,7 +1339,8 @@ Week 4
 </table>
 
 
-**Month 4 - February**
+
+**Month 4**
 
 Week 1
 
@@ -1407,7 +1429,9 @@ Week 1
 </table>
 
 
+
 Week 2
+
 
 
 <table>
@@ -1498,6 +1522,7 @@ CtCI questions 18, advanced topics, review;
 </table>
 
 
+
 Review Week
 
 
@@ -1583,7 +1608,3 @@ Review Week
    </td>
   </tr>
 </table>
-
-
-
-<!-- Docs to Markdown version 1.0β17 -->
