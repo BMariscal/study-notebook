@@ -201,5 +201,80 @@ https://graphics.stanford.edu/~seander/bithacks.html
 * https://bits.stephan-brumme.com/absInteger.html
 * https://www.youtube.com/watch?v=Hzuzo9NJrlc&feature=youtu.be
 -------------
-[ ] Trees
+[X] Trees
+-------------
+[Slides](https://d18ky98rnyall9.cloudfront.net/_bd63e90c34461825e4308eada52801d1_05_3_trees.pdf?Expires=1572048000&Signature=JjZGnpLiU0df0zUMZiqDbk9jo7wVWArNuIM1017IaLKHZMY1Zvi06ZSpXV1J~IK9~RtLBzD-UgRzh039mnba6bhsdLdjyL75PDLIz1I3fsXF7GU86hGwVo7Z0dFaFJjeCb42YLozrvZPF3wiRHm5UqqaHDNHVbYkcSiFeMOSy8Y_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
+```
+Height(tree)
+if tree == nil: return 0 
+return 1 + Max(Height(tree.left),Height(tree.right))
+
+
+Size(tree)
+if tree == nil: return 0 
+return 1 + Size(tree.left) + Size(tree.right)
+```
+
+
+
+
+
+DFS
+
+* Time complexity: O(n)
+* Space complexity: best: O(log n) - avg. height of tree worst: O(n)
+* Inorder (DFS: left, self, right)
+* Postorder (DFS: left, right, self)
+* Preorder (DFS: self, left, right)
+
+ In-order: This is InOrderTraversal is what we might use to print all the nodes of a binary search tree in alphabetical order.
+  ```
+  InOrder(tree)
+      if tree == nil: return
+      InOrder(tree.left)
+       print(tree.key)
+      InOrder(tree.right)
+  ```
+ In a post-order traversal, we evaluate all children fully before evaluating a node itself.
+  ```
+  PostOrder(tree)
+      if tree == nil: return
+      PostOrder(tree.left)
+      PostOrder(tree.right)
+      print(tree.key)
+  ```
+ In a pre-order traversal, we evaluate the node fully before evaluating a node's children.
+ ```
+ PreOrder(tree)
+  if tree == nil: return
+  print(tree.key)
+  PreOrder(tree.left)
+  PreOrder(tree.right)
+  ```
+ BFS
+ 
+* Time complexity: O(n)
+* Space complexity: best: O(1), worst: O(n/2)=O(n)
+ 
+ ``````
+ levelTransversal(tree)
+  if tree == nil: return
+
+  Queue q
+  q.Enqueue(tree) //put root of tree in queue
+  while not q.Empty():
+    node <- q.Dequeue() // while queue is not empty, we're going to pull a node off
+    print(node)
+
+    if node.left =/= nil: // if left child exists, queue it 
+      q.Enqueue(node.left)
+    if node.right =/= nil:
+      q.Enqueue(node.right) //if right child exists, queue it
+ 
+ 
+ 
+ ``````
+ -------------
+ 
+ [ ] BST
 -------------
