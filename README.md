@@ -104,6 +104,7 @@
 
 
 **Month 0**
+--
 
 **Week 0**
 
@@ -289,7 +290,7 @@ PSP: chpt - Trees
 
 
 **Month 1**
-
+--
 Week 1
 
 
@@ -641,7 +642,7 @@ Week 4
 
 
 **Month 2**
-
+--
 Week 1
 
 
@@ -994,7 +995,7 @@ Week 4
 
 
 **Month 3**
-
+--
 Week 1
 
 
@@ -1350,7 +1351,7 @@ Week 4
 
 
 **Month 4**
-
+--
 Week 1
 
 
