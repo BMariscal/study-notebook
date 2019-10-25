@@ -1,6 +1,19 @@
 
 
 ---
+## Table of Contents
+- [Books](#books)
+- [Practice Problems](#practice-problems)
+- [Courses and Resources](#courses-and-resources)
+- [Other](#other)
+- [Tutorials](#tutorials)
+- [Syllabus](#syllabus-subject-to-change)
+
+
+***
+
+
+
 
 #### Books:
 

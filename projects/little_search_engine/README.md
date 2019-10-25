@@ -1,5 +1,6 @@
 
 Enron Email search:
+
 The legal team suing Enron needs your help. They need to search through the email corpus from their mobile phone to reference material. A few interesting restrictions:
 
 - This will be running in a mobile environment, so we don't have a lot of memory. You can't just load everything into RAM. You need to be as efficient as possible about organizing the data on disk, keeping as little data as possible in memory.
@@ -11,7 +12,9 @@ The legal team suing Enron needs your help. They need to search through the emai
 
 The dataset is [here](https://www.cs.cmu.edu/~enron/enron_mail_20150507.tar.gz). 
 
-Approach:
+---
+
+My Approach:
 
 1. Create *B-Tree* structure with file paths and documents from data file.
 
