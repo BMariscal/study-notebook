@@ -30,13 +30,14 @@
 
 
 * [Primary resource](https://github.com/BMariscal/coding-interview-university)
+* [Slay dragons, master concurrency!](https://deadlockempire.github.io/)
 
 *   [Data Structures and Algorithms Specialization](https://www.coursera.org/specializations/data-structures-algorithms)
 *  [Introduction to Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/)
     * [Notes](https://courses.csail.mit.edu/6.006/fall11/notes.shtml)
 
 * [Design and Analysis of Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/)
-
+* [Competitive Programming](https://www.topcoder.com/community/competitive-programming)
 * [Advanced Data Structures](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-851-advanced-data-structures-spring-2012/)
 
 *   [The Hardware/Software Interface](https://courses.cs.washington.edu/courses/cse351/19sp/)
@@ -45,7 +46,7 @@
 
 *   [Intro to DBs](https://lagunita.stanford.edu/courses/DB/2014/SelfPaced/about), [Database Systems ](https://15445.courses.cs.cmu.edu/fall2019/)
 
-*   [ Linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+*   [ Linear algebra 0](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 
 ---
 
