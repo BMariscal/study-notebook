@@ -13,11 +13,11 @@ The dataset is [here](https://www.cs.cmu.edu/~enron/enron_mail_20150507.tar.gz).
 
 Approach:
 
-1. Create *B-Tree* structure with file paths and documents from data file
+1. Create *B-Tree* structure with file paths and documents from data file.
 
-2. Create *inverted index* [the list of words, and the documents in which they appear] mapping each email address found in the files to the email file paths where each email is found and the index where the email address is found in that document
+2. Create *inverted index* [the list of words, and the documents in which they appear] mapping each email address found in the files to the email file paths where each email is found and the index where the email address is found in that document.
 
-3. Create *Trie for autocomplete* [research Bloom Filter for possible alternative (faster?)] for the *inverted index* indexes 
+3. Create *Trie for autocomplete* [research Bloom Filter for possible alternative (faster?)] for the *inverted index* indexes.  [Relevant mini-project](https://docs.google.com/document/d/1yDk36HGJlvxbAP3xxe1g5es7MVtAmJGsUvITISQ_9pg/edit#heading=h.y41ubj2hqa5m)
 
 
 ----
