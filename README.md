@@ -50,6 +50,12 @@
 
 ---
 
+#### Other:
+
+* [Every Programmer Should Know ](https://github.com/BMariscal/every-programmer-should-know)
+
+* [What happens when...](https://github.com/BMariscal/what-happens-when)
+---
 #### Tutorials:
 
 
