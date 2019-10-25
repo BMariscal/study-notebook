@@ -37,6 +37,36 @@
 ----
 [X] Bitwise Operators
 -------------
+
+![Imgur](https://i.imgur.com/amG156t.png)
+
+
+```
+# Function to count set bits in an integer 
+# in Python 
+  
+def countSetBits(num): 
+  
+     # convert given number into binary 
+     # output will be like bin(11)=0b1101 
+     binary = bin(num) 
+  
+     # now separate out all 1's from binary string 
+     # we need to skip starting two characters 
+     # of binary string i.e; 0b 
+     setBits = [ones for ones in binary[2:] if ones=='1'] 
+       
+     print len(setBits) 
+  
+# Driver program 
+if __name__ == "__main__": 
+    num = 11
+    countSetBits(num)  
+
+```
+
+
+
     2^0, 2^1, 2^2, 2^3, 2^4, 2^5, 2^6, 2^7  = 8 bits = 1 byte
 
      2^7  2^6 2^5 2^4  2^3 2^2 2^1 2^0
@@ -196,6 +226,7 @@ https://graphics.stanford.edu/~seander/bithacks.html
 ``````
 
 * https://wiki.python.org/moin/BitwiseOperators
+* https://wiki.python.org/moin/BitManipulation
 * https://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer
 * https://bits.stephan-brumme.com/swap.html
 * https://bits.stephan-brumme.com/absInteger.html
