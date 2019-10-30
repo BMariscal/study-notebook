@@ -188,6 +188,7 @@ PSP: chpt - Trees
 PSP: chpt - Trees
    </td>
    <td>
+   x
    </td>
   </tr>
   <tr>
@@ -236,6 +237,7 @@ PSP: chpt - Trees
    <td>
    </td>
    <td>
+   x
    </td>
   </tr>
   <tr>
