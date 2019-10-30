@@ -232,7 +232,7 @@ PSP: chpt - Trees
   <tr>
    <td>Monday
    </td>
-   <td>Heap
+   <td>Heap and Heap sort
    </td>
    <td>
    </td>
@@ -243,7 +243,7 @@ PSP: chpt - Trees
   <tr>
    <td>Tuesday
    </td>
-   <td>Merge sort
+   <td>
    </td>
    <td>
    </td>
@@ -253,7 +253,7 @@ PSP: chpt - Trees
   <tr>
    <td>Wednesday
    </td>
-   <td>Quick sort
+   <td>Quick sort, Merge sort
    </td>
    <td>
    </td>
@@ -323,7 +323,8 @@ Week 1
   <tr>
    <td>Monday
    </td>
-   <td>Heap sort
+   <td>
+   Review
    </td>
    <td>
    </td>
