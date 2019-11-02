@@ -676,7 +676,7 @@ Week 1
   <tr>
    <td>Monday
    </td>
-   <td>Endiarnes
+   <td>Endianness
    </td>
    <td>
    </td>
