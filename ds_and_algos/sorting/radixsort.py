@@ -56,3 +56,19 @@ radixSort(arr)
 
 for i in range(len(arr)):
     print(arr[i]),
+
+import math
+
+# OR:
+def sort(a, radix=10):
+    """a For an integer list, radix Cardinal number"""
+    K = int(math.ceil(math.log(max(a) + 1, radix)))  # Arbitrary integers can be represented by K-digits
+    for i in range(1, K + 1):  # K secondary cycle
+        bucket = [[] for i in range(
+            radix)]  # You can't use [[] * radix, otherwise it's equivalent to opening Radix with exactly the same list object
+        for val in a:
+            bucket[val % (radix ** i) // (radix ** (i - 1))].append(val)  # Gets the integer number K (from low to high)
+        del a[:]
+        for each in bucket:
+            a.extend(each)  # Bucket merging
+

@@ -248,6 +248,7 @@ PSP: chpt - Trees
    <td>
    </td>
    <td>
+   x
    </td>
   </tr>
   <tr>
@@ -258,6 +259,7 @@ PSP: chpt - Trees
    <td>
    </td>
    <td>
+   x
    </td>
   </tr>
   <tr>
@@ -268,6 +270,7 @@ PSP: chpt - Trees
    <td>
    </td>
    <td>
+   x
    </td>
   </tr>
   <tr>
@@ -278,6 +281,7 @@ PSP: chpt - Trees
    <td>
    </td>
    <td>
+   x
    </td>
   </tr>
   <tr>
@@ -329,6 +333,7 @@ Week 1
    <td>
    </td>
    <td>
+   x
    </td>
   </tr>
   <tr>

@@ -41,17 +41,17 @@ print("selection sort")
 print(unsortedList)
 
 
-unsortedList = [0,4,2,9,10,-20,30,1,5]
+unsortedList = [0,4,2,9,10,20,30,1,5]
 radixSort = radixsort.radixSort(unsortedList)
 print("radix sort")
 print(unsortedList)
 
-unsortedList = [0,4,2,9,10,-20,30,1,5]
-radixSort = shellsort.shellSort(unsortedList)
+unsortedList = [0,4,2,9,10,20,30,1,5]
+shellsort = shellsort.shellSort(unsortedList)
 print("shellsort")
 print(unsortedList)
 
-unsortedList = [0,4,2,9,10,-20,30,1,5]
-radixSort = insertionsort.insertionSort(unsortedList)
+unsortedList = [0,4,2,9,10,20,30,1,5]
+insertionsort = insertionsort.insertionSort(unsortedList)
 print("insertion sort")
 print(unsortedList)
