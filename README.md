@@ -70,6 +70,9 @@
 * [What happens when...](https://github.com/BMariscal/what-happens-when)
 
 * [SRE Interview Preparation Guide](https://github.com/BMariscal/sre-interview-prep-guide)
+
+* [Linux Journey](https://linuxjourney.com/)
+
 ---
 #### Tutorials:
 
