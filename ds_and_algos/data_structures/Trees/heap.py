@@ -55,3 +55,9 @@ class MinIntHeap:
         return self.items[0]
 
 
+
+## arr = [100, 20, 50, 10, 5, 25, 23]
+## parent: i //2 .. for instance, child @ index 3's parent is 3//2 is located at index 1
+## left_child: (2*i)
+## right_child: (2* i) + 1
+
