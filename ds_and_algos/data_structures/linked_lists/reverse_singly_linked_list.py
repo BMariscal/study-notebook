@@ -1,60 +1,10 @@
 import unittest
 
-# attempt1
-def reverse(head_of_list):
-    # Reverse the linked list in place
-    temp = head_of_list
-    arr = []
-    while head_of_list != None:
-        arr.append(head_of_list.value)
-        head_of_list = head_of_list.next
-
-    head_of_list = temp
-    temp1 = head_of_list
-    if len(arr) >= 1:
-        rev = reversed(arr)
-        for e in rev:
-            if head_of_list != None:
-                head_of_list.value = e
-                head_of_list = head_of_list.next
-
-    return temp1
-
-# attempt2
-class LinkedListNode(object):
-    def __init__(self, value, next=None):
-        self.value = value
-        self.next = next
-
-
-def reverse(head_of_list):
-    head = LinkedListNode('*')
-    head.next = None
-    reverse_list(head_of_list, head)
-
-    return head.next
-
-
-def reverse_list(head_of_list, head):
-    if head_of_list and head_of_list.next == None:
-        head.next = head_of_list
-        return head_of_list
-
-    if head_of_list:
-        reverse_list(head_of_list.next, head)
-        temp = head_of_list
-        n_n_obj = head_of_list.next.next
-
-        head_of_list = head_of_list.next
-        head_of_list.next = temp
-        head_of_list.next.next = n_n_obj
-
-
 
 # attempt3
 def reverse(head_of_list):
-    current_node = head_of_list
     previous_node = None
+    current_node = head_of_list
     next_node = None
 
     # Until we have 'fallen off' the end of the list
