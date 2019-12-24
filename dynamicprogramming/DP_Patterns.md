@@ -18,3 +18,13 @@ ____
 ____
 ### Unbounded Knapsack Pattern 
 ____
+
+1) [Unbounded Knapsack](./unbounded_knapsack.py)
+
+2) [Rod Cutting](./rod_cutting.py)
+
+3) [Coin Change](./coin_change_2.py)
+
+4) [Minimum Coin Change](./coin_change.py)
+
+5) [Maximum Ribbon Cut](./maxi_ribbon_cut.py)
