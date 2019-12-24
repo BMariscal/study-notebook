@@ -1,4 +1,5 @@
-
+# Given an infinite supply of ‘n’ coin denominations and a total money amount,
+# we are asked to find the minimum number of coins needed to make up that amount.
 def coinChange(coins, amount):
     if not amount: return 0
     min_coins = [amount + 1] * (amount + 1)
