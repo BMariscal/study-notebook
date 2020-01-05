@@ -4,6 +4,7 @@
 # sum of elements in both the subsets is equal.
 
 
+## button-up
 def can_partition(num):
   s = sum(num)
 
@@ -42,4 +43,32 @@ print(can_partition([1, 2, 3, 4]) == True)
 print(can_partition([1, 1, 3, 4, 7]) == True)
 print(can_partition([2, 3, 4, 6]) == False)
 
+# top-down
+def can_partition(nums):
+  if sum(nums) % 2 != 0:
+    return False
 
+  target = sum(nums) / 2
+  return can_partition_helper(nums, target, 0, {})
+
+
+def can_partition_helper(nums, target_sum, idx, cache):
+  if (idx, target_sum) in cache:
+    return cache[(idx, target_sum)]
+
+  if target_sum == 0:
+    return True
+
+  if target_sum < 0 or idx >= len(nums) or len(nums) == 0:
+    return False
+
+  result = can_partition_helper(nums, target_sum - nums[idx], idx + 1, cache) or can_partition_helper(nums, target_sum,
+                                                                                                      idx + 1, cache)
+  cache[(idx, target_sum)] = result
+  return result
+
+
+a = can_partition([1, 5, 11, 5])
+b = can_partition([1, 2, 3, 5])
+
+print(a, b)
