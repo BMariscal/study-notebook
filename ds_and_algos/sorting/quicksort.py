@@ -1,4 +1,4 @@
-
+# n^2, NOT stable
 def partition(arr,low,high): 
   i = ( low-1 ) 
   pivot = arr[high]

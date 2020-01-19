@@ -10,6 +10,7 @@
 # https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-search-and-sorting-exercise-10.php
 
 
+#  O(n+k) and stable
 def counting_sort(self, unsorted):
     final_arr = [0] * len(unsorted)
     low = min(unsorted)

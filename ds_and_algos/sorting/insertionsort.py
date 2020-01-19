@@ -1,3 +1,7 @@
+
+#  n^2 & stable
+
+
 def insertionSort(alist):
    for index in range(1,len(alist)):
 

@@ -1,3 +1,6 @@
+
+# n*log(n) and stable
+
 def merge(lst):
   lstlen = len(lst)
   if lstlen == 0 or lstlen == 1:
