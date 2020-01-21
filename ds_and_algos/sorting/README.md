@@ -74,6 +74,7 @@
     *   space complexity: O( n)
     *   Average and best time complexity: n*log(n), O(n)
 *   Heapsort: worst time complexity: n*log(n)
+    * Heapsort is great when you need to know just the "smallest" (or "largest") of a collection of items, without the overhead of keeping the remaining items in sorted order.
     * Tip: construct minHeap, put every element in array into minHeap and bubble it up. Pop min element in heap and bubble new top element down.
     *   stable: no
     *   space complexity: O(1)
