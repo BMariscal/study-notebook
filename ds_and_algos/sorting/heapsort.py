@@ -1,73 +1,142 @@
-def left_child_index(parent_index):
-    return parent_index * 2 + 1
+# Input:
+# k = 3, n =  4
+# arr[][] = { {1, 3, 5, 7},
+#             {2, 4, 6, 8},
+#             {0, 9, 10, 11}} ;
+#
+# Output: 0 1 2 3 4 5 6 7 8 9 10 11
 
-def right_child_index(parent_index):
-    return parent_index * 2 + 2
+# MIN HEAP!!!
+import heapq
 
-def bubble_down(heap, heap_length, index):
-    '''
-    Restore a max heap where the value at index may
-    be out of place (i.e.: smaller than its children).
-    '''
-    while index < heap_length:
-        left_index  = left_child_index(index)
-        right_index = right_child_index(index)
 
-        # If we don't have any child nodes, we can stop
-        if left_index >= heap_length:
-            break
+def merge_k_sorted_arrays(arr):
+    arr1 = []
+    for l in arr:
+        for item in l:
+            heapq.heappush(arr1, item)
 
-        # Find the larger of the two children
-        larger_child_index = left_index
-        if right_index < heap_length and heap[left_index] < heap[right_index]:
-            larger_child_index = right_index
+    answer = []
+    for i in range(len(arr1)):
+        answer.append(heapq.heappop(arr1))
+    return answer
 
-        # Are we larger than our children?
-        # If so, swap with the larger child.
-        if heap[index] < heap[larger_child_index]:
-            heap[index], heap[larger_child_index] = heap[larger_child_index], heap[index]
 
-            # Continue bubbling down
-            index = larger_child_index
-        else:
+arr = [
+    [2, 6, 12, 34],
+    [1, 9, 20, 1000],
+    [23, 34, 90, 2000]
+]
+print('Merged Array is:')
+answer = merge_k_sorted_arrays(arr)
+print(answer)
 
-            # We're larger than both children, so we're done
-            break
 
-def remove_max(heap, heap_length):
-    '''
-    Remove and return the largest item from a heap.
-    Updates the heap in-place, maintaining validity.
-    '''
-    # Grab the largest value from the root
-    max_value = heap[0]
 
-    # Move the last item in the heap into the root position
-    heap[0] = heap[heap_length - 1]
 
-    # And bubble down from the root to restore the heap
-    bubble_down(heap, heap_length - 1, 0)
 
-    return max_value
 
-def heapify(the_list):
 
-    # Bubble down from the leaf nodes up to the top
-    for index in range(len(the_list) - 1, -1, -1):
-        bubble_down(the_list, len(the_list), index)
 
-def heap_sort(the_list):
+# My Min-Heap implementation
+# ----------------------------------
 
-    heapify(the_list)
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
 
-    heap_size = len(the_list)
 
-    while heap_size > 0:
+parent_list = []
+aa = ListNode(1)
+ab = ListNode(4)
+ac = ListNode(5)
+aa.next = ab
+ab.next = ac
+parent_list.append(aa)
 
-        # Remove the largest item and update the heap size
-        largest_value = remove_max(the_list, heap_size)
-        heap_size -= 1
+ba = ListNode(3)
+bb = ListNode(7)
+bc = ListNode(9)
+ba.next = bb
+bb.next = bc
+parent_list.append(ba)
 
-        # Store the removed value at the end of the list, after
-        # the entries used by the heap
-        the_list[heap_size] = largest_value
+ca = ListNode(2)
+cb = ListNode(6)
+ca.next = cb
+parent_list.append(ca)
+
+
+class MinHeap(object):
+    def __init__(self):
+        self.heap = [0]
+
+    def heappush(self, x):
+        self.heap.append(x)
+        self.bubbleup(len(self.heap) - 1)
+
+    def heappop(self):
+        res = self.heap[1]
+        self.__swap(1, -1)
+        self.heap.pop()
+        self.bubbledown(1)
+        return res
+
+    def bubbleup(self, idx):
+
+        while idx > 1:
+            parent = idx // 2
+            if self.heap[parent][0] > self.heap[idx][0]:
+                self.__swap(parent, idx)
+            idx = parent
+
+    def bubbledown(self, idx):
+
+        while 2 * idx < len(self.heap):
+            left_child = 2 * idx
+            right_child = 2 * idx + 1
+
+            if right_child < len(self.heap) and self.heap[right_child][0] < self.heap[left_child][0]:
+                left_child = right_child
+            if self.heap[idx][0] > self.heap[left_child][0]:
+                self.__swap(left_child, idx)
+
+            idx = left_child
+
+    def __swap(self, idx1, idx2):
+        self.heap[idx1], self.heap[idx2] = self.heap[idx2], self.heap[idx1]
+
+
+def mergeKLists(lists):
+    h = MinHeap()
+    for i in lists:
+        h.heappush((i.val, i))
+
+    new_list = ListNode(0)
+    superhead = new_list
+    while len(h.heap) > 1:
+        node = h.heappop()[1]
+        if node.next:
+            h.heappush((node.next.val, node.next))
+
+        superhead.next = node
+        superhead = superhead.next
+
+    return new_list.next
+
+
+new_l = mergeKLists(parent_list)
+new_arr = []
+while new_l != None:
+    new_arr.append(new_l.val)
+    new_l = new_l.next
+print(new_arr)
+
+
+
+# heap.push # bubble up
+# heap.pop # bubble down
+# parent = i // 2 (bubble up)
+# left_child =  2 * i (bubble down)
+# right_child = 2* i + 1
