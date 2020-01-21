@@ -1,34 +1,41 @@
 
 # n*log(n) and stable
 
-def merge(lst):
-  lstlen = len(lst)
+def mergeSort(arr):
+  lstlen = len(arr)
   if lstlen == 0 or lstlen == 1:
-    return lst[:lstlen]
-  midway = lstlen // 2
-  lst1 = lst[0:midway] 
-  lst2 = lst[midway:lstlen]
+    return arr[:lstlen]
 
-  newlst1 = merge(lst1)
-  newlst2 = merge(lst2)
-  newlst =  sort(newlst1, newlst2)
-  return newlst
+  midpoint = lstlen // 2
+  arr1 = arr[0:midpoint]
+  arr2 = arr[midpoint:lstlen]
+  newarr1 = mergeSort(arr1)
+  newarr2 = mergeSort(arr2)
+  newarr = sort(newarr1, newarr2)
+  return newarr
 
-def sort(lst1, lst2):
+
+def sort(arr1, arr2):
   newlst = []
-  lst1indx = 0
-  lst2indx = 0
+  idxarr1 = 0
+  idxarr2 = 0
 
-  while lst1indx < len(lst1) and lst2indx < len(lst2):
-    if lst1[lst1indx] <= lst2[lst2indx]:
-      newlst.append(lst1[lst1indx])
-      lst1indx+=1
+  while idxarr1 < len(arr1) and idxarr2 < len(arr2):
+    if arr1[idxarr1] <= arr2[idxarr2]:
+      newlst.append(arr1[idxarr1])
+      idxarr1 += 1
     else:
-      newlst.append(lst2[lst2indx])
-      lst2indx+=1
-  
-  newlst.extend(lst1[lst1indx:])
-  newlst.extend(lst2[lst2indx:])
+      newlst.append(arr2[idxarr2])
+      idxarr2 += 1
+  newlst.extend(arr1[idxarr1:])
+  newlst.extend(arr2[idxarr2:])
   return newlst
 
-    
+
+# Not sorted in place
+arr = [2, 9, 7, 4, 6, 1]
+newarr = mergeSort(arr)
+print(newarr)
+
+
+
