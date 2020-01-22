@@ -1,3 +1,18 @@
+
+# recursive!
+def reverse(head):
+    if head == None or head.next == None:
+        return head
+
+    l = reverse(head.next)#head
+    head.next.next = head
+    head.next = None
+    return l
+
+
+
+
+
 import unittest
 
 

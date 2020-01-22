@@ -26,10 +26,10 @@
         
         
    Once you have p returned from the partition method, you can use p to define the sections of the array that still need to be sorted.
-   
-           quickSort(arr, low, p-1)
-           quickSort(arr, p+1, high)
-            
+           
+        quickSort(arr, low, p-1)
+        quickSort(arr, p+1, high)
+
 
     
     
@@ -65,10 +65,8 @@
                 return newarr
                 
                 
-                
-                
-         
-   call the sorting function to sort elements in arra1 and array2 by appending elements into a new list.
+                         
+   call the sorting function to sort elements in array1 and array2 by appending elements into a new list.
 *   Timsort: worst time complexity: n*log(n)
     *   stable: yes
     *   space complexity: O( n)
