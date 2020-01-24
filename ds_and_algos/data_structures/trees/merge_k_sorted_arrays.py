@@ -1,3 +1,10 @@
+
+"""
+both
+enqueue and dequeue
+items in 𝑂(log𝑛).
+
+
 # Input:
 # k = 3, n =  4
 # arr[][] = { {1, 3, 5, 7},
@@ -7,6 +14,9 @@
 # Output: 0 1 2 3 4 5 6 7 8 9 10 11
 
 # MIN HEAP!!!
+
+"""
+
 import heapq
 
 
@@ -30,12 +40,6 @@ arr = [
 print('Merged Array is:')
 answer = merge_k_sorted_arrays(arr)
 print(answer)
-
-
-
-
-
-
 
 
 # My Min-Heap implementation

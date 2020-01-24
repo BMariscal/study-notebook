@@ -1,3 +1,20 @@
+Resources I love:
+
+https://www.codenewbie.org/basecs
+
+https://medium.com/basecs
+
+https://runestone.academy/runestone/books/published/pythonds/index.html
+
+https://www.interviewbit.com/courses/programming/topics/dynamic-programming/
+
+https://www.hackerearth.com/practice/algorithms/graphs/depth-first-search/tutorial/
+
+https://app.codesignal.com/interview-practice
+
+
+
+
 ----
 [x] Hash Table
 -------------
