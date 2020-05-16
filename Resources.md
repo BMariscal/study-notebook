@@ -2,10 +2,10 @@ Hello you!
 
 
 Looking for resources that will help you self-study CS concepts? Look no further. This is the place.
-I've spent many many hours sleuthing the interwebs (my #1 favorite hobby) and have found the following helpful resources. 
+I've spent many many hours sleuthing the interwebs (my #1 favorite hobby) and have found the following helpful resources.
 I hope you find them as helpful as I did. 
 
-"Wow, there are a lot of links here. How am I going to do all this in less than a year?" You won't. Pick what works for you. We all learn differently so find the resources that work best for you.  
+"Wow, there are a lot of links here. How am I going to do all this in less than a year?" You won't. Pick what works for you. We all learn differently so find the resources that work best for you  
 
 
 -----
@@ -92,7 +92,7 @@ Leetcode Problem walk-throughs:
 
 
 #### Practice Problems:
-*  LeetCode - Get Leetcode premium and check out the `Explore`, `Mock` and `Contest` sections.
+*  LeetCode - Get Leetcode premium and check out the `Explore`, `Mock` and `Contest` sections
 *  HackerRank [Interview Preparation Kit](https://www.hackerrank.com/interview/interview-preparation-kit)
 *  [Code Signal](https://codesignal.com/)
 * [GeekforGeeks](https://www.geeksforgeeks.org/)
