@@ -127,7 +127,7 @@ Leetcode Problem walk-throughs:
 ### Mock interview environments:
 * Google hangouts + Google Doc
 * Coderpad
-* Zoom + Google Doc 
+* Zoom + Google Doc or repl.it
 
 
 #### Tutorials:
