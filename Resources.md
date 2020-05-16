@@ -64,24 +64,6 @@ The problems:
 * [Coding Interview University](https://github.com/jwasham/coding-interview-university)
 
 
-#### Practice Problems:
-*  LeetCode - Get Leetcode premium and check out the `Explore`, `Mock` and `Contest` sections.
-*  HackerRank [Interview Preparation Kit](https://www.hackerrank.com/interview/interview-preparation-kit)
-*  [Code Signal](https://codesignal.com/)
-* [GeekforGeeks](https://www.geeksforgeeks.org/)
-
-
-### Interview Prep:
-*  [Pramp](https://www.pramp.com/)
-* [InterviewBit](https://www.interviewbit.com/practice/)
-* [Gainlo](http://www.gainlo.co/)
-
-### Mock interview environments:
-* Google hangouts + Google Doc
-* Coderpad
-* Zoom + Google Doc 
-
-
 #### Books: (ordered by increasing complexity, easy -> harder)
 *   [Grokking Algorithms‎](https://www.amazon.com/Grokking-Algorithms-illustrated-programmers-curious/dp/1617292230/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1589600431&sr=1-2)(if you're a visual learner and like cartoons)
 *   [Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/runestone/books/published/pythonds/index.html) (If this book is too easy for you or you've read it, move on to the books below)
@@ -108,6 +90,23 @@ Leetcode Problem walk-throughs:
 * [Dynamic Programming Tutorial Series and some of his other videos](https://www.youtube.com/playlist?list=PLBZBJbE_rGRU5PrgZ9NBHJwcaZsNpf8yD)
 * [IDeserve](https://www.youtube.com/watch?v=U4yPae3GEO0&list=PLamzFoFxwoNjtJZoNNAlYQ_Ixmm2s-CGX)
 
+
+#### Practice Problems:
+*  LeetCode - Get Leetcode premium and check out the `Explore`, `Mock` and `Contest` sections.
+*  HackerRank [Interview Preparation Kit](https://www.hackerrank.com/interview/interview-preparation-kit)
+*  [Code Signal](https://codesignal.com/)
+* [GeekforGeeks](https://www.geeksforgeeks.org/)
+
+
+### Interview Prep:
+*  [Pramp](https://www.pramp.com/)
+* [InterviewBit](https://www.interviewbit.com/practice/)
+* [Gainlo](http://www.gainlo.co/)
+
+### Mock interview environments:
+* Google hangouts + Google Doc
+* Coderpad
+* Zoom + Google Doc 
 
 
 #### Tutorials:
@@ -136,9 +135,6 @@ Leetcode Problem walk-throughs:
 * [Logic Gates Game](http://nandgame.com/)
 * [Competitive Programming](https://www.topcoder.com/community/competitive-programming)
 * [Building a Modern Computer From First Principles](https://www.coursera.org/learn/build-a-computer)
-
-
-
 
 
 ------
