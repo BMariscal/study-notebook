@@ -159,15 +159,15 @@ Leetcode Problem walk-throughs:
 * [Soft Eng Interview Prep Topics](https://github.com/orrsella/soft-eng-interview-prep/tree/master/topics)
 * [Python Tutor](pythontutor.com/visualize.html#mode=edit)
     * Python Tutor helps students overcome a fundamental barrier to learning programming: understanding what happens as the computer runs each line of source code. Visualize Python, Java, JavaScript, TypeScript, and Ruby code execution.
-
+* [Top 20 Dynamic Programming Interview Questions](https://www.geeksforgeeks.org/top-20-dynamic-programming-interview-questions/?ref=lbp)
+* [Recent Interview Questions](https://www.careercup.com/page)
 
 #### Just for fun:
 * [Slay dragons, master concurrency!](https://deadlockempire.github.io/)
 * [Logic Gates Game](http://nandgame.com/)
 * [Competitive Programming](https://www.topcoder.com/community/competitive-programming)
 * [Building a Modern Computer From First Principles](https://www.coursera.org/learn/build-a-computer)
-* [Top 20 Dynamic Programming Interview Questions](https://www.geeksforgeeks.org/top-20-dynamic-programming-interview-questions/?ref=lbp)
-* [Recent Interview Questions](https://www.careercup.com/page)
+
 
 
 ------
