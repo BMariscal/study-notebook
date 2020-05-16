@@ -81,11 +81,11 @@ The problems:
 * [Generate all the binary strings of N bits](https://www.geeksforgeeks.org/generate-all-the-binary-strings-of-n-bits/)
 
 
-#### The WAY to know all:
+### The WAY to know all:
 * [Coding Interview University](https://github.com/jwasham/coding-interview-university)
 
 
-#### Books: (ordered by increasing complexity, easy -> harder)
+### Books: (ordered by increasing complexity, easy -> harder)
 *   [Grokking Algorithms‎](https://www.amazon.com/Grokking-Algorithms-illustrated-programmers-curious/dp/1617292230/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1589600431&sr=1-2)(if you're a visual learner and like cartoons)
 *   [Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/runestone/books/published/pythonds/index.html) (If this book is too easy for you or you've read it, move on to the books below)
 *   [Cracking the Coding Interview (The Green book)](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=pd_bxgy_img_2/143-5968918-7070145?_encoding=UTF8&pd_rd_i=0984782850&pd_rd_r=5ccb3a90-4541-4a06-afff-0fc58ff192f8&pd_rd_w=H28vk&pd_rd_wg=Axte2&pf_rd_p=7a6bc5c0-cfeb-4154-b2f9-fb32e87e9c63&pf_rd_r=KEXFVYW6PK66N8M4HE4T&psc=1&refRID=KEXFVYW6PK66N8M4HE4T)
@@ -112,7 +112,7 @@ Leetcode Problem walk-throughs:
 * [IDeserve](https://www.youtube.com/watch?v=U4yPae3GEO0&list=PLamzFoFxwoNjtJZoNNAlYQ_Ixmm2s-CGX)
 
 
-#### Practice Problems:
+### Practice Problems:
 *  LeetCode - Get Leetcode premium and check out the `Explore`, `Mock` and `Contest` sections
 *  HackerRank [Interview Preparation Kit](https://www.hackerrank.com/interview/interview-preparation-kit)
 *  [Code Signal](https://codesignal.com/)
@@ -130,7 +130,7 @@ Leetcode Problem walk-throughs:
 * Zoom + Google Doc or repl.it
 
 
-#### Tutorials:
+### Tutorials:
 * [Khan Academy: Algorithms](https://www.khanacademy.org/computing/computer-science/algorithms) ** **good introduction to introductory computer science algorithms** 
 *   [Grokking the Coding Interview](https://www.educative.io/courses/grokking-the-coding-interview) (Learn how to solve problems using pointers, sliding windows, etc.)
 *   [Grokking Dynamic Programming Patterns for Coding Interviews](https://www.educative.io/courses/grokking-dynamic-programming-patterns-for-coding-interviews)
@@ -145,7 +145,7 @@ Leetcode Problem walk-throughs:
 * [Basecs](https://www.codenewbie.org/basecs)
 
 
-#### Other:
+### Other:
 * [Steps to a Coding Interview](https://hackmd.io/@morganrichardson/tech_mentors)
 * [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * [Computer Science Guides](https://github.com/codepath/compsci_guides)
@@ -162,7 +162,7 @@ Leetcode Problem walk-throughs:
 * [Top 20 Dynamic Programming Interview Questions](https://www.geeksforgeeks.org/top-20-dynamic-programming-interview-questions/?ref=lbp)
 * [Recent Interview Questions](https://www.careercup.com/page)
 
-#### Just for fun:
+### Just for fun:
 * [Slay dragons, master concurrency!](https://deadlockempire.github.io/)
 * [Logic Gates Game](http://nandgame.com/)
 * [Competitive Programming](https://www.topcoder.com/community/competitive-programming)
