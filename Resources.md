@@ -68,7 +68,7 @@ The problems:
 *   [Grokking Algorithms‎](https://www.amazon.com/Grokking-Algorithms-illustrated-programmers-curious/dp/1617292230/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1589600431&sr=1-2)(if you're a visual learner and like cartoons)
 *   [Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/runestone/books/published/pythonds/index.html) (If this book is too easy for you or you've read it, move on to the books below)
 *   [Cracking the Coding Interview (The Green book)](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=pd_bxgy_img_2/143-5968918-7070145?_encoding=UTF8&pd_rd_i=0984782850&pd_rd_r=5ccb3a90-4541-4a06-afff-0fc58ff192f8&pd_rd_w=H28vk&pd_rd_wg=Axte2&pf_rd_p=7a6bc5c0-cfeb-4154-b2f9-fb32e87e9c63&pf_rd_r=KEXFVYW6PK66N8M4HE4T&psc=1&refRID=KEXFVYW6PK66N8M4HE4T)
-*   [The Algorithm Design Manual (The Red book)](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/ref=pd_bxgy_img_3/143-5968918-7070145?_encoding=UTF8&pd_rd_i=032157351X&pd_rd_r=2c6e3bc8-96cc-4d19-bbd0-4dc9fb9aac29&pd_rd_w=9Mvq4&pd_rd_wg=EWvii&pf_rd_p=7a6bc5c0-cfeb-4154-b2f9-fb32e87e9c63&pf_rd_r=90JCJE2734ZA132GB8PW&psc=1&refRID=90JCJE2734ZA132GB8PW)
+*   [The Algorithm Design Manual (The Red book)](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202)
 *   [Introduction to Algorithms (The Blue book)](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
 
 
