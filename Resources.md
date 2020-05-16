@@ -32,13 +32,14 @@ I hope you find them as helpful as I did.
 
 
 ### Problems I've been asked:
+The concepts:
 * DFS problems (Leetcode mediums and hards)
 * BFS problems (Leetcode mediums)
 * Backtracking problems (Leetcode mediums)
 * Implementing recursive problems using DP
+* Heap sort/Problems that require you to know what a min-heap is
 
-##
-
+The problems:
 * [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
 * [Subsets](https://leetcode.com/problems/subsets/)
 * [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
@@ -58,7 +59,8 @@ I hope you find them as helpful as I did.
 * [Interleaving Strings](https://leetcode.com/problems/interleaving-string/)
 * [Generate all the binary strings of N bits](https://www.geeksforgeeks.org/generate-all-the-binary-strings-of-n-bits/)
 
-#### The WAY:
+
+#### The WAY to know all:
 * [Coding Interview University](https://github.com/jwasham/coding-interview-university)
 
 
