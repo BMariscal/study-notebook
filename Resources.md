@@ -31,7 +31,7 @@ I hope you find them as helpful as I did.
 * How to do recursion in your sleep 
 
 
-Problems I've been asked:
+### Problems I've been asked:
 * DFS problems (Leetcode mediums and hards)
 * BFS problems (Leetcode mediums)
 * Backtracking problems (Leetcode mediums)
