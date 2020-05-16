@@ -13,21 +13,35 @@ I hope you find them as helpful as I did.
 * [Asymptotic notation](https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation)
 * Search (Binary search, linear search)
 * Sorting Algos (Quick sort, Merge sort, Heap sort ... know their time and space complexities, and whether they're stable or unstable)
+* Implement a Stack & a Queue using arrays
 * String manipulation
 * Array manipulation
 * Bit manipulation (Background knowledge needed: The Base-2 System and the 8-bit Byte, [logic gates](https://www.khanacademy.org/computing/ap-computer-science-principles/computers-101/logic-gates-and-circuits/a/logic-gates), bitwise operations (AND, OR, XOR, etc.))
 * Sets
-* Hash maps (hash functions...what are they? how would you make one?)
+* HashMaps (hash functions...what are they? how would you make one?)
 * Queues
 * Recursion
 * Backtracking 
+* Greedy Algorithms
 * DFS and BFS 
 * Dynamic Programming (DP)
 * Linked lists (both singly and doubly linked) - reverse a link list, find a node in the middle of a link list, find a cycle
-* Binary Search Tree (AVL trees are optional)
+* Binary Search Trees (AVL trees are optional) - Print a binary tree using DFS (in-order, preorder and post order - all three of them) and BFS
 * Heaps (Min and Max)
 * Tries
-* Graphs (directed and undirected graphs, acyclic and cyclic graphs, adjacency list vs adjacency matrix, detect a cycle, topological sorting, Finding connected components, Minimum Spanning Tree, DFS, BFS, Shortest Path Algos)
+* Graphs 
+
+    * directed and undirected graphs
+    * acyclic and cyclic graphs
+    * adjacency list vs adjacency matrix
+    * detect cycle in an undirected graph
+    * detect cycle in a directed graph
+    * count connected components in graph
+    * find strongly connected components in graph
+    * topological sorting
+    * Minimum Spanning Tree
+    * DFS and BFS
+    * Dijkstra's Algorithm/Shortest Path Algos 
 * How to do recursion in your sleep 
 
 
@@ -37,9 +51,14 @@ The concepts:
 * BFS problems (Leetcode mediums)
 * Backtracking problems (Leetcode mediums)
 * Implementing recursive problems using DP
-* Heap sort/Problems that require you to know what a min-heap is
+* Heap sort/Problems that require you to know what a Min-Heap is
+* OOP - design a chess game
+* What happens when you type a URL in the browser and press enter?
+
 
 The problems:
+* [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+* [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)
 * [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
 * [Subsets](https://leetcode.com/problems/subsets/)
 * [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
@@ -52,6 +71,7 @@ The problems:
 * [LRU cache](https://leetcode.com/problems/lru-cache/)
 * [LCA](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
 * [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
+* [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)
 * Find median in row wise sorted matrix
 * [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
 * [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
@@ -118,16 +138,25 @@ Leetcode Problem walk-throughs:
 
 ### Articles:
 * [Basecs](https://medium.com/basecs)
+    * [BaseCS Article Table of Contents](https://hackmd.io/@nesquena/HJ9YQDE2b?type=view)
 
 ### Podcast:
 * [Basecs](https://www.codenewbie.org/basecs)
 
 
 #### Other:
-
+* [Steps to a Coding Interview](https://hackmd.io/@morganrichardson/tech_mentors)
+* [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
+* [Computer Science Guides](https://github.com/codepath/compsci_guides)
+* [Bit-manipulation tactics](https://www.geeksforgeeks.org/bits-manipulation-important-tactics/)
+* [Preparing for Technical Interviews](https://hackmd.io/@morganrichardson/tech_mentors)
 * [Every Programmer Should Know ](https://github.com/BMariscal/every-programmer-should-know)
 
 * [What happens when...](https://github.com/BMariscal/what-happens-when)
+* [REST API Interview Questions Answers](https://www.techbeamers.com/rest-api-interview-questions-answers/)
+* [HeapClub](https://heapclub.gitbook.io/heapclub-algorithms/)
+* [Python Tutor](pythontutor.com/visualize.html#mode=edit)
+    * Python Tutor helps students overcome a fundamental barrier to learning programming: understanding what happens as the computer runs each line of source code. Visualize Python, Java, JavaScript, TypeScript, and Ruby code execution.
 
 
 #### Just for fun:
@@ -135,6 +164,8 @@ Leetcode Problem walk-throughs:
 * [Logic Gates Game](http://nandgame.com/)
 * [Competitive Programming](https://www.topcoder.com/community/competitive-programming)
 * [Building a Modern Computer From First Principles](https://www.coursera.org/learn/build-a-computer)
+* [Top 20 Dynamic Programming Interview Questions](https://www.geeksforgeeks.org/top-20-dynamic-programming-interview-questions/?ref=lbp)
+* [Recent Interview Questions](https://www.careercup.com/page)
 
 
 ------
