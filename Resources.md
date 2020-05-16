@@ -59,6 +59,7 @@ The concepts:
 The problems:
 * [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 * [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)
+* [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 * [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
 * [Subsets](https://leetcode.com/problems/subsets/)
 * [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
@@ -151,10 +152,11 @@ Leetcode Problem walk-throughs:
 * [Bit-manipulation tactics](https://www.geeksforgeeks.org/bits-manipulation-important-tactics/)
 * [Preparing for Technical Interviews](https://hackmd.io/@morganrichardson/tech_mentors)
 * [Every Programmer Should Know ](https://github.com/BMariscal/every-programmer-should-know)
-
+ 
 * [What happens when...](https://github.com/BMariscal/what-happens-when)
 * [REST API Interview Questions Answers](https://www.techbeamers.com/rest-api-interview-questions-answers/)
 * [HeapClub](https://heapclub.gitbook.io/heapclub-algorithms/)
+* [Soft Eng Interview Prep Topics](https://github.com/orrsella/soft-eng-interview-prep/tree/master/topics)
 * [Python Tutor](pythontutor.com/visualize.html#mode=edit)
     * Python Tutor helps students overcome a fundamental barrier to learning programming: understanding what happens as the computer runs each line of source code. Visualize Python, Java, JavaScript, TypeScript, and Ruby code execution.
 
