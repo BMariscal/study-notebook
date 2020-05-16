@@ -8,9 +8,9 @@ I hope you find them as helpful as I did.
 "Wow, there are a lot of links here. How am I going to do all this in less than a year?" You won't. Pick what works for you. We all learn differently so find the resources that work best for you.  
 
 
-
-###What you need to know:
-
+-----
+### What you need to know:
+* [Asymptotic notation](https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation)
 * Search (Binary search, linear search)
 * Sorting Algos (Quick sort, Merge sort, Heap sort ... know their time and space complexities, and whether they're stable or unstable)
 * String manipulation
@@ -29,6 +29,7 @@ I hope you find them as helpful as I did.
 * Tries
 * Graphs (directed and undirected graphs, acyclic and cyclic graphs, adjacency list vs adjacency matrix, detect a cycle, topological sorting, Finding connected components, Minimum Spanning Tree, DFS, BFS, Shortest Path Algos)
 * How to do recursion in your sleep 
+* An O(N^2) solution is almost never the right answer
 
 
 Problems I've been asked:
@@ -107,6 +108,7 @@ Leetcode Problem walk-throughs:
 
 
 #### Tutorials:
+* [Khan Academy: Algorithms](https://www.khanacademy.org/computing/computer-science/algorithms) ** **good introduction to introductory computer science algorithms** 
 *   [Grokking the Coding Interview](https://www.educative.io/courses/grokking-the-coding-interview) (Learn how to solve problems using pointers, sliding windows, etc.)
 *   [Grokking Dynamic Programming Patterns for Coding Interviews](https://www.educative.io/courses/grokking-dynamic-programming-patterns-for-coding-interviews)
 *   [Grokking the Object Oriented Design Interview](https://www.educative.io/courses/grokking-the-object-oriented-design-interview)
@@ -137,7 +139,7 @@ Leetcode Problem walk-throughs:
 
 
 ------
-List made with love, patience and a glass of red wine by Briceida Mariscal 
+List made with love, patience and a glass of red wine by Briceida Mariscal ❤  
 
 
 
