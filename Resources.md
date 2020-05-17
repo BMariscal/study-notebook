@@ -13,6 +13,8 @@ I hope you find them as helpful as I did.
 * [Asymptotic notation](https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation)
 * Search (Binary search, linear search)
 * Sorting Algos (Quick sort, Merge sort, Heap sort ... know their time and space complexities, and whether they're stable or unstable)
+    * Counting sort
+    * Know of Timsort
 * Implement a Stack & a Queue using arrays
 * String manipulation
 * Array manipulation
