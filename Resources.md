@@ -75,7 +75,7 @@ The problems:
 * [LCA](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
 * [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
 * [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)
-* Find median in row wise sorted matrix
+* [Find median in row wise sorted matrix](https://www.interviewbit.com/problems/matrix-median/)
 * [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
 * [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 * [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
