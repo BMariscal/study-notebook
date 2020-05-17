@@ -1,3 +1,6 @@
+
+#Stable
+# O(n^2)
 def bubbleSort(alist):
     for passnum in range(len(alist)-1,0,-1):
         for i in range(passnum):

@@ -1,3 +1,7 @@
+
+# not Stable
+# O(n^2)
+
 def selection_sort(the_list):
 
     for i in range(len(the_list)):

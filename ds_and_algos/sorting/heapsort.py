@@ -1,3 +1,5 @@
+
+# O(nlogn), in-place, NOT Stable
 # Input:
 # k = 3, n =  4
 # arr[][] = { {1, 3, 5, 7},

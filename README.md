@@ -392,6 +392,9 @@ def checkBST(root):
      Its right-child is at 2*i + 2
      
      Its parent is at (i -2) // 2
+     
+     
+     Bubble up: halving the index every time you move element up the tree
  
  
 AVL
