@@ -81,6 +81,7 @@ The problems:
 * [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
 * [Interleaving Strings](https://leetcode.com/problems/interleaving-string/)
 * [Generate all the binary strings of N bits](https://www.geeksforgeeks.org/generate-all-the-binary-strings-of-n-bits/)
+* [Rate Limiter](https://leetcode.com/discuss/interview-question/124558/Implement-a-Rate-Limiter/238639)
 
 
 ### The WAY to know all:
