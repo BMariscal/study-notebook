@@ -54,6 +54,35 @@ https://medium.com/building-the-system/gunicorn-3-means-of-concurrency-efbb54767
 Python3 Features
 --
 https://towardsdatascience.com/features-you-likely-dont-use-in-python-3-but-you-should-2d79dba4cfb3
+https://medium.com/@SmartLabAI/
+
+Python under the hood 
+--
+
+https://medium.com/@SmartLabAI/python-under-the-hood-tips-and-tricks-from-a-c-programmers-perspective-01-b5f96895663
+
+https://levelup.gitconnected.com/python-objects-under-the-hood-1b9c4a9cf41d
+
+https://planetpython.org/
+
+http://jakevdp.github.io/blog/2014/05/09/why-python-is-slow/
+
+
+
+Exploring CPython’s Internals
+--
+https://devguide.python.org/exploring/
+
+https://compilers.pydata.org/resources.html
+
+https://news.ycombinator.com/item?id=6745270
+
+https://github.com/amygdalama/python-internals
+
+https://tech.blog.aknin.name/2010/04/02/pythons-innards-introduction/
+
+
+
 
 Asyncio
 --
@@ -66,6 +95,7 @@ https://medium.com/@interfacer/intro-to-async-concurrency-in-python-and-node-js-
 https://stackoverflow.com/questions/34753401/difference-between-coroutine-and-future-task-in-python-3-5#:~:text=The%20coroutine%20is%20scheduled%20to,the%20result%20of%20the%20operation.
 
 https://docs.python.org/3.4/library/asyncio-task.html
+https://medium.com/cowrks/asynchronous-python-app-architecture-5395d5338c4a
 
 
 
@@ -86,3 +116,9 @@ https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-xxii-backgroun
 Thread pool
 ---
 https://en.wikipedia.org/wiki/Thread_pool
+
+
+Node.js event loop architecture
+---
+https://medium.com/preezma/node-js-event-loop-architecture-go-deeper-node-core-c96b4cec7aa4
+
