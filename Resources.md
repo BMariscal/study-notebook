@@ -149,7 +149,7 @@ Leetcode Problem walk-throughs:
 
 
 ### Other:
-* [Steps to a Coding Interview](https://hackmd.io/@morganrichardson/tech_mentors)
+* [Steps to a Coding Interview](https://books.codepath.org/student-handbook/technical-interviewing/anatomy-of-an-interview)
 * [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 * [Computer Science Guides](https://github.com/codepath/compsci_guides)
 * [Bit-manipulation tactics](https://www.geeksforgeeks.org/bits-manipulation-important-tactics/)
